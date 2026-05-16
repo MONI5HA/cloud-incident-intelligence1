@@ -2,7 +2,7 @@ import random
 
 
 def generate_metrics():
-    traffic_spike = random.choice([True, False, False, False])
+    traffic_spike = random.choice([True, False])
 
     request_rate = random.randint(100, 500)
 
